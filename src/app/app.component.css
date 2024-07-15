@@ -1,0 +1,13 @@
+#loading {
+    opacity: 1;
+    animation: fade 1s forwards;
+    z-index: 100;
+}
+
+@keyframes fade {
+    80%{opacity: 1;
+    z-index: 100;}
+    100%{opacity: 0;
+    z-index: -1;
+    display: none !important;}
+}

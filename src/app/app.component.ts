@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ApidataService } from './apidata.service';
+import * as $ from 'jquery'
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Customer-Transaction-App';
+  
+
 }
+
+
